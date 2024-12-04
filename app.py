@@ -22,6 +22,6 @@ input_data = np.array([[length, width, median_age, total_rooms, total_bedrooms, 
 predicted_price = model.predict(input_data)
 
 # Bashoratni foydalanuvchiga ko'rsatish
-st.write(f"Bashorat qilingan uy narxi: {predicted_price[0]:,.2f} so'm")
+st.write(f"Bashorat qilingan uy narxi: {predicted_price[0]:,.2f} dollar")
 
 
