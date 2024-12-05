@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-
+#uzgarish
 # Modelni yuklash
 model = joblib.load('housemodel.pkl')
 
